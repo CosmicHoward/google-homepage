@@ -5,3 +5,48 @@
   left: 7px;
   font-size: 15px;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+li a {
+  display: inline-block;
+  text-align: center;
+  padding: 6px;
+  text-decoration: none;
+  color: #222;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #f2f2f2;
+
+}
+
+#signIn {
+  padding: 10px 20px;
+  background-color: #1a73e8;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+
+}
+
+#signIn a {
+  color: white;
+  text-decoration: none;
+}
