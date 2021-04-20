@@ -1,11 +1,3 @@
-.search { position: relative; }
-.search input { text-indent: 30px;}
-.search .material-icons {
-  position: absolute;
-  left: 7px;
-  font-size: 15px;
-}
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -37,8 +29,27 @@ footer {
 
 }
 
+.search { position: relative; }
+.search input { text-indent: 30px;}
+.search .material-icons {
+  position: absolute;
+  left: 7px;
+  font-size: 15px;
+}
+
+.main {
+  margin: auto;
+  border: 3px solid green;
+  width: 50%;
+}
+
+#googleLogo {
+  display: block;
+  margin: auto;
+}
+
 #signIn {
-  padding: 10px 20px;
+  padding: 10px 25px;
   background-color: #1a73e8;
   text-align: center;
   border-radius: 5px;
@@ -49,4 +60,8 @@ footer {
 #signIn a {
   color: white;
   text-decoration: none;
+}
+
+#waffle {
+  padding-right: 15px;
 }
