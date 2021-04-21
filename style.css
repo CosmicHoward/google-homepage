@@ -26,16 +26,13 @@ li a:hover {
 
 footer {
   background-color: #f2f2f2;
-
+  position: fixed;
+  bottom: 0;
+  left:0; 
+  width: 100%;
 }
 
-input[type=text] {
-  
-  background-image: url('http://www.w3.org/2000/svg');
 
-  background-repeat: no-repeat;
-
-}
 
 .button {
   background-color: #f8f9fa;
@@ -61,6 +58,7 @@ input[type=text] {
 .search {
   position: relative;
 }
+
 .search input { text-indent: 30px;}
 .search .material-icons {
   position: absolute;
@@ -78,6 +76,8 @@ input[type=text] {
   height: calc(100%-560px);
   width: 50%;
 }
+
+
 
 #googleLogo {
   display: block;
@@ -114,6 +114,9 @@ input[type=text] {
   border: 1px solid #dfe1e5;
   height: 44px;
   width: 65%;
-
+  max-width: 524px;
+  background: url("search_black_24dp.svg");
+  background-repeat: no-repeat;
+  background-position: 10px 10px;
 
 }
