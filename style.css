@@ -1,3 +1,7 @@
+nav {
+  padding: 6px;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -34,7 +38,6 @@ footer {
   justify-content: space-between;
 }
 
-
 .button {
   background-color: #f8f9fa;
   border: 1px solid #f8f9fa;
@@ -54,6 +57,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 15px;
 }
 
 .search {
@@ -69,6 +73,7 @@ footer {
 
 .main {
   margin: auto;
+  margin-top: 150px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -87,7 +92,7 @@ footer {
 
 .carbon a {
   font-family: arial, sans-serif;
-  font-size: 13px;
+  font-size: 14px;
   text-align: center;
   text-decoration: none;
   color: #70757a;
@@ -99,11 +104,15 @@ footer {
 
 .carbon img {
   height: 14px;
-  margin: 6px;
+  margin-right: 6px;
 }
 
 .footer-left a, .footer-right a {
   color: #70757a;
+  display: block;
+  padding: 15px;
+  white-space: nowrap;
+  font-size: 14px;
 }
 
 #googleLogo {
@@ -126,6 +135,11 @@ footer {
   text-decoration: none;
 }
 
+#signIn:hover {
+  box-shadow: 0 1px 2px 0 rgb(66 133 244 / 30%),
+  0 1px 3px 1px rgb(66 133 244 / 15%);
+}
+
 #waffle {
   padding-right: 15px;
 }
@@ -141,9 +155,26 @@ footer {
   border: 1px solid #dfe1e5;
   height: 44px;
   width: 65%;
-  max-width: 524px;
+  max-width: 574px;
   background: url("search_black_24dp.svg");
   background-repeat: no-repeat;
   background-position: 10px 10px;
 
+}
+
+#searchBar:hover {
+  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+  border-color: rgba(223,225,229,0);
+}
+
+#searchButton:hover, #luckyButton:hover {
+  box-shadow: 0 1px 1px rbg(0 0 0 / 10%);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+
+#searchButton:focus, #luckyButton:focus {
+  border: 1px solid #4d90fe;
+  outline: none;
 }
